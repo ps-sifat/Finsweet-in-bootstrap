@@ -43,6 +43,7 @@ body{
     --primary_color: #1C1E53;
     --primary_text_color: #282938;
     --primary_Bg_color: #F4F6FC;
+    --white: #ffffff;
 }
 
 
@@ -72,14 +73,59 @@ body{
 }
 
 
-
-
-
-
-
 /* ========= nav bar end ========== */
 
+
 /* ===== banner_part start ===== */
+#banner_part{
+    padding: 216px 0 128px;
+    background: var(--primary_color);
+}
+
+.banner_part__title{
+    font-size: 54px;
+    font-weight: 600;
+    color: var(--white);
+}
+
+.banner_part__summary{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--white);
+    margin-top: 24px;
+}
+
+.bannner__viewBtn{
+    padding: 16px 56px;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--primary_text_color);
+    background: #FCD980;
+    border-radius: 41px;
+    border: 2px solid transparent;
+    transition: .4s linear;
+}
+
+.bannner__viewBtn:hover{
+    color: var(--white);
+    background: transparent;
+    border-color: var(--white);
+}
+
+.banner__priceBtn{
+    font-size: 18px ;
+    font-weight: 500;
+    color: var(--white);
+}
+
+
+
+
+
+/* ===== banner_part start ===== */
+
+
+
 
 /* ===== section part 1 end ===== */
 
