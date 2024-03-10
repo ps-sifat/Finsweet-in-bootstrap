@@ -2,133 +2,141 @@
  @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
  /* font  */
- 
-
-
-*{
-    margin: 0;
-    padding: 0;
-    outline: 0;
-    box-sizing: border-box;
-    font-family: poppins;
-}
-
-ul,
-ol {
-    list-style-type: none;
-}
-
-img {
-    display: block;
-}
-
-a {
-    display: inline-block;
-    text-decoration: none;
-}
-h1,h2,h3,h4,h5,h6,p,span{
-    padding: 0;
-    margin: 0;
-}
-
-.container {
-    max-width: 1280px;
-}
-
-body{
-    font-family: "Poppins", sans-serif;
-}
-
-:root{
-    --primary_color: #1C1E53;
-    --primary_text_color: #282938;
-    --primary_Bg_color: #F4F6FC;
-    --white: #ffffff;
-}
-
-
-/* =========  nav bar start  ========= */
-
-.navbar-nav{
-    column-gap: 32px;
-}
-
-.CantomNavlink{
-    font-size: 16px;
-    font-weight: 500;
-    color: #BBBBCB;   
-}
-
-.CantomNavlink:hover{
-    color: var(--primary_Bg_color);   
-}
-
-.Nav__btn{
-    font-size: 16px;
-    font-weight: 500;
-    color: #ffffff;
-    padding: 16px 48px ;
-    border-radius: 41px;
-    border: 2px solid rgba(244, 246, 252, 0.20);
-}
-
-
-/* ========= nav bar end ========== */
-
-
-/* ===== banner_part start ===== */
-#banner_part{
-    padding: 216px 0 128px;
-    background: var(--primary_color);
-}
-
-.banner_part__title{
-    font-size: 54px;
-    font-weight: 600;
-    color: var(--white);
-}
-
-.banner_part__summary{
-    font-size: 16px;
-    font-weight: 500;
-    color: var(--white);
-    margin-top: 24px;
-}
-
-.bannner__viewBtn{
-    padding: 16px 56px;
-    font-size: 18px;
-    font-weight: 600;
-    color: var(--primary_text_color);
-    background: #FCD980;
-    border-radius: 41px;
-    border: 2px solid transparent;
-    transition: .4s linear;
-}
-
-.bannner__viewBtn:hover{
-    color: var(--white);
-    background: transparent;
-    border-color: var(--white);
-}
-
-.banner__priceBtn{
-    font-size: 18px ;
-    font-weight: 500;
-    color: var(--white);
-}
 
 
 
+ * {
+     margin: 0;
+     padding: 0;
+     outline: 0;
+     box-sizing: border-box;
+     font-family: poppins;
+ }
+
+ ul,
+ ol {
+     list-style-type: none;
+ }
+
+ img {
+     display: block;
+ }
+
+ a {
+     display: inline-block;
+     text-decoration: none;
+ }
+
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6,
+ p,
+ span {
+     padding: 0;
+     margin: 0;
+ }
+
+ .container {
+     max-width: 1280px;
+ }
+
+ body {
+     font-family: "Poppins", sans-serif;
+ }
+
+ :root {
+     --primary_color: #1C1E53;
+     --primary_text_color: #282938;
+     --primary_Bg_color: #F4F6FC;
+     --white: #ffffff;
+ }
 
 
-/* ===== banner_part start ===== */
+ /* =========  nav bar start  ========= */
+
+ .navbar-nav {
+     column-gap: 32px;
+ }
+
+ .CantomNavlink {
+     font-size: 16px;
+     font-weight: 500;
+     color: #BBBBCB;
+ }
+
+ .CantomNavlink:hover {
+     color: var(--primary_Bg_color);
+ }
+
+ .Nav__btn {
+     font-size: 16px;
+     font-weight: 500;
+     color: #ffffff;
+     padding: 16px 48px;
+     border-radius: 41px;
+     border: 2px solid rgba(244, 246, 252, 0.20);
+ }
+
+
+ /* ========= nav bar end ========== */
+
+
+ /* ===== banner_part start ===== */
+ #banner_part {
+     padding: 216px 0 128px;
+     background: var(--primary_color);
+ }
+
+ .banner_part__title {
+     font-size: 54px;
+     font-weight: 600;
+     color: var(--white);
+ }
+
+ .banner_part__summary {
+     font-size: 16px;
+     font-weight: 500;
+     color: var(--white);
+     margin-top: 24px;
+ }
+
+ .bannner__viewBtn {
+     padding: 16px 56px;
+     font-size: 18px;
+     font-weight: 600;
+     color: var(--primary_text_color);
+     background: #FCD980;
+     border-radius: 41px;
+     border: 2px solid transparent;
+     transition: .4s linear;
+ }
+
+ .bannner__viewBtn:hover {
+     color: var(--white);
+     background: transparent;
+     border-color: var(--white);
+ }
+
+ .banner__priceBtn {
+     font-size: 18px;
+     font-weight: 500;
+     color: var(--white);
+ }
 
 
 
 
-/* ===== section part 1 end ===== */
 
-/* ============================================================================================== */
+ /* ===== banner_part start ===== */
 
-/* ============= section project start ============= */
+
+
+
+ /* ===== section part 1 end ===== */
+
+ /* ============================================================================================== */
+
+ /* ============= section project start ============= */
