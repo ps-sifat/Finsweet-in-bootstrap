@@ -10,7 +10,6 @@
      padding: 0;
      outline: 0;
      box-sizing: border-box;
-     font-family: poppins;
  }
 
  ul,
@@ -38,10 +37,10 @@
      padding: 0;
      margin: 0;
  }
-
+/* 
  .container {
      max-width: 1280px;
- }
+ } */
 
  body {
      font-family: "Poppins", sans-serif;
@@ -180,106 +179,111 @@
 
  /* ===== work part  end ===== */
 
- /* ============================================================================================== */
 
- /* ============= poject project start ============= */
+ /* --------project_part start--------- */
 
- #projectPart {
-     padding: 128px 0;
- }
-
- .pojectLeft {
-     margin-top: 64px;
- }
-
- .projectPart__title {
-     font-size: 48px;
-     font-weight: 600;
-     color: var(--primary_text_color);
- }
-
- .projectPart__title__btn {
-     font-size: 16px;
-     font-weight: 500;
-     color: var(--primary_text_color);
- }
-
- .projectPart__title__btn i {
-     margin-left: 16px;
- }
-
- .pojectLeft {
-     overflow: hidden;
- }
-
- .overlay {
-     padding: 76px 35px;
-     top: 0;
-     left: -50%;
-     transition: .4s all linear;
-     background: rgba(68, 71, 154, 0.666);
-     background: linear-gradient(180deg, rgba(68, 71, 154, 0.8800770308123249) 6%, rgba(28, 30, 83, 0.9360994397759104) 100%);
- }
-
- .overlay__title {
-     font-size: 24px;
-     font-family: 600;
-     color: var(--white);
- }
-
- .overlay__summary {
-     font-size: 16px;
-     font-family: 500;
-     opacity: 0.8;
-     color: var(--white);
- }
-
- .overlay__btn {
-     font-size: 16px;
-     font-weight: 500;
-     color: var(--yellow);
- }
-
- .overlay__btn i {
-     margin-left: 10px;
- }
-
- .pojectLeft:hover .overlay {
-     left: 0;
- }
-
-.projectRightTop{
-    overflow: hidden;
-    
+#projectPart{
+    padding: 128px 0 128px;
 }
 
-.overlay--two{
-    padding: 45px 66px 45px 56px;
+.view__title{
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.view__option{
+    font-weight: 500;
+    color: var(--primary_text_color);
+    font-size: 16px;
+}
+
+.project_rightTop{
+    margin-top: -4%;
+}
+
+.project_rightBottom{
+    margin-top: 10%;
+}
+
+.project_left{
+    overflow: hidden;
+}
+
+
+.overly{
+    max-width: 396px;
+    height: 100%;
+    background: #1c1e53b3;
+    top: 0;
+    left: -47%;
+    transition: all linear .4s;
+}
+
+.project_left:hover .overly{
     left: 0;
+}
+
+.overly_title{
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--white);
+}
+
+.overly_summry{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--white);
+    opacity: .7;
+    margin: 16px 0 40px;
+}
+
+.overly_contant{
+    height: 100%;
+    justify-content: flex-end;
+    padding: 0 10px 100px 48px;
+}
+
+.view_more{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--yellow);
+    margin-top: 10px;
+}
+
+.overly--tow{
+    max-width: 100%;
+    width: 100%;
     top: -100%;
-    transition: .4s all linear;
 }
 
-.projectRightTop:hover .overlay--two{
-   top: 0;
+.overly--contant{
+    padding: 0 10px 45px 48px;
 }
-
-.projectRightBottom{
-    margin-top: -15px;
+.project_rightTop{
     overflow: hidden;
 }
-
-
-.overlay--three{
-    left: 100%;
-    transition: .4s linear;
+.project_rightTop:hover .overly--tow{
+    top: 0;
 }
 
-.projectRightBottom:hover .overlay--three{
+.overly_Title{
+    color: var(--white);
+    width: 313px;
+}
+
+.overly--three{
+    max-width: 100%;
+    width: 100%;
+    left: -100%;
+}
+
+.project_rightBottom{
+    overflow: hidden;
+}
+.project_rightBottom:hover .overly--three {
     left: 0;
-
 }
 
+/* --------project_part end--------- */
 
-
- /* ============= poject project end ============= */
+ /* ============================================================================================== */
