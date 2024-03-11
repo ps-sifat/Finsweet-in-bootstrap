@@ -217,7 +217,7 @@
      top: 0;
      left: -50%;
      transition: .4s all linear;
-     background: rgb(68, 71, 154);
+     background: rgba(68, 71, 154, 0.666);
      background: linear-gradient(180deg, rgba(68, 71, 154, 0.8800770308123249) 6%, rgba(28, 30, 83, 0.9360994397759104) 100%);
  }
 
@@ -244,14 +244,41 @@
      margin-left: 10px;
  }
 
-
-
  .pojectLeft:hover .overlay {
      left: 0;
  }
 
+.projectRightTop{
+    overflow: hidden;
+    
+}
+
+.overlay--two{
+    padding: 45px 66px 45px 56px;
+    left: 0;
+    top: -100%;
+    transition: .4s all linear;
+}
+
+.projectRightTop:hover .overlay--two{
+   top: 0;
+}
+
+.projectRightBottom{
+    margin-top: -15px;
+    overflow: hidden;
+}
 
 
+.overlay--three{
+    left: 100%;
+    transition: .4s linear;
+}
+
+.projectRightBottom:hover .overlay--three{
+    left: 0;
+
+}
 
 
 
