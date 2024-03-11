@@ -126,16 +126,67 @@
      color: var(--white);
  }
 
+ /* ===== banner_part end ===== */
+
+ /* ===== work part  start ===== */
+
+#workPart{
+    padding: 126px 0 128px ;
+    background: var(--primary_Bg_color);
+}
+
+.workPark__title{
+    font-size: 48px ;
+    font-weight: 600;
+    color: var(--primary_text_color);
+}
+
+.workPark__summary{
+    font-size: 16px ;
+    max-width: 405px;
+    font-weight: 400;
+    color: var(--primary_text_color);
+    opacity: 0.7;
+    margin: 16px 0 ;
+}
+
+
+.workPark__btn{
+    font-size: 18px ;
+    font-weight: 500;
+    color: #2405F2;
+    opacity: 0.7;
+}
+
+.workPark__btn i{
+    margin-left: 10px;
+}
+
+.workRight__heding{
+    font-size: 32px;
+    font-weight: 500;
+    color: var(--primary_text_color);
+    margin: 16px 0 8px;
+}
+
+.workRight__details{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--primary_text_color);
+    opacity: 0.7;
+}
 
 
 
 
- /* ===== banner_part start ===== */
 
 
 
 
- /* ===== section part 1 end ===== */
+
+
+
+ /* ===== work part  end ===== */
 
  /* ============================================================================================== */
 
