@@ -181,4 +181,32 @@
 
  /* ============================================================================================== */
 
- /* ============= section project start ============= */
+ /* ============= poject project start ============= */
+
+#projectPart{
+    padding: 128px 0;
+}
+
+.projectPart__title{
+    font-size: 48px;
+    font-weight: 600;
+    color: var(--primary_text_color);
+}
+
+.projectPart__title__btn{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--primary_text_color);
+}
+
+.projectPart__title__btn i{
+    margin-left: 16px;
+}
+
+
+
+
+
+
+
+ /* ============= poject project end ============= */
