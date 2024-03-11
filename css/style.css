@@ -52,6 +52,7 @@
      --primary_text_color: #282938;
      --primary_Bg_color: #F4F6FC;
      --white: #ffffff;
+     --yellow: #FCD980;
  }
 
 
@@ -187,6 +188,10 @@
     padding: 128px 0;
 }
 
+.pojectLeft{
+    margin-top: 64px;
+}
+
 .projectPart__title{
     font-size: 48px;
     font-weight: 600;
@@ -203,6 +208,47 @@
     margin-left: 16px;
 }
 
+.pojectLeft{
+    overflow: hidden;
+}
+
+.overlay{
+    padding: 76px 35px;
+    top: 0;
+    left: -50%;
+    transition: .4s all linear;
+    background: rgb(68,71,154);
+background: linear-gradient(180deg, rgba(68,71,154,0.8800770308123249) 6%, rgba(28,30,83,0.9360994397759104) 100%);
+}
+
+.overlay__title{
+    font-size: 24px;
+    font-family: 600;
+    color: var(--white);
+}
+
+.overlay__summary{
+    font-size: 16px;
+    font-family: 500;
+    opacity: 0.8;
+    color: var(--white);
+}
+
+.overlay__btn{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--yellow);
+}
+
+.overlay__btn i{
+    margin-left: 10px;
+}
+
+
+
+.pojectLeft:hover .overlay{
+    left: 0;
+}
 
 
 
