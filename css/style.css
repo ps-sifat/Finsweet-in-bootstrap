@@ -184,71 +184,71 @@
 
  /* ============= poject project start ============= */
 
-#projectPart{
-    padding: 128px 0;
-}
+ #projectPart {
+     padding: 128px 0;
+ }
 
-.pojectLeft{
-    margin-top: 64px;
-}
+ .pojectLeft {
+     margin-top: 64px;
+ }
 
-.projectPart__title{
-    font-size: 48px;
-    font-weight: 600;
-    color: var(--primary_text_color);
-}
+ .projectPart__title {
+     font-size: 48px;
+     font-weight: 600;
+     color: var(--primary_text_color);
+ }
 
-.projectPart__title__btn{
-    font-size: 16px;
-    font-weight: 500;
-    color: var(--primary_text_color);
-}
+ .projectPart__title__btn {
+     font-size: 16px;
+     font-weight: 500;
+     color: var(--primary_text_color);
+ }
 
-.projectPart__title__btn i{
-    margin-left: 16px;
-}
+ .projectPart__title__btn i {
+     margin-left: 16px;
+ }
 
-.pojectLeft{
-    overflow: hidden;
-}
+ .pojectLeft {
+     overflow: hidden;
+ }
 
-.overlay{
-    padding: 76px 35px;
-    top: 0;
-    left: -50%;
-    transition: .4s all linear;
-    background: rgb(68,71,154);
-background: linear-gradient(180deg, rgba(68,71,154,0.8800770308123249) 6%, rgba(28,30,83,0.9360994397759104) 100%);
-}
+ .overlay {
+     padding: 76px 35px;
+     top: 0;
+     left: -50%;
+     transition: .4s all linear;
+     background: rgb(68, 71, 154);
+     background: linear-gradient(180deg, rgba(68, 71, 154, 0.8800770308123249) 6%, rgba(28, 30, 83, 0.9360994397759104) 100%);
+ }
 
-.overlay__title{
-    font-size: 24px;
-    font-family: 600;
-    color: var(--white);
-}
+ .overlay__title {
+     font-size: 24px;
+     font-family: 600;
+     color: var(--white);
+ }
 
-.overlay__summary{
-    font-size: 16px;
-    font-family: 500;
-    opacity: 0.8;
-    color: var(--white);
-}
+ .overlay__summary {
+     font-size: 16px;
+     font-family: 500;
+     opacity: 0.8;
+     color: var(--white);
+ }
 
-.overlay__btn{
-    font-size: 16px;
-    font-weight: 500;
-    color: var(--yellow);
-}
+ .overlay__btn {
+     font-size: 16px;
+     font-weight: 500;
+     color: var(--yellow);
+ }
 
-.overlay__btn i{
-    margin-left: 10px;
-}
+ .overlay__btn i {
+     margin-left: 10px;
+ }
 
 
 
-.pojectLeft:hover .overlay{
-    left: 0;
-}
+ .pojectLeft:hover .overlay {
+     left: 0;
+ }
 
 
 
