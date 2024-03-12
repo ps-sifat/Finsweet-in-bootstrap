@@ -37,10 +37,7 @@
      padding: 0;
      margin: 0;
  }
-/* 
- .container {
-     max-width: 1280px;
- } */
+
 
  body {
      font-family: "Poppins", sans-serif;
@@ -179,11 +176,11 @@
 
  /* ===== work part  end ===== */
 
-
- /* --------project_part start--------- */
+ /* ===== project part  start ===== */
 
 #projectPart{
     padding: 128px 0 128px;
+    background: #ffffff;
 }
 
 .view__title{
@@ -284,6 +281,66 @@
     left: 0;
 }
 
-/* --------project_part end--------- */
+/* ===================== project_part end ==================*/
+/* ===================== work part start ==================*/
+
+#workPart{
+    padding: 128px 0;
+    background: var(--primary_Bg_color);
+}
+
+.workPart__features{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--primary_text_color);
+}
+
+.workPart__tittle{
+    font-size: 48px;
+    font-weight: 600;
+    color: var(--primary_text_color);
+    margin-top: 15px;
+    margin-bottom: 44px;
+}
+
+.WorkCard{
+    padding: 58px 32px 48px 48px;
+    background: var(--white);
+    transition: .4s linear;
+    height: 316px;
+}
+
+.WorkCard:hover{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.card__title{
+    margin: 22px 0 12px;
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--primary_text_color) ;
+}
+
+.card__details{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--primary_text_color) ;
+    opacity: 0.7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ===================== work part end ==================*/
 
  /* ============================================================================================== */
