@@ -524,11 +524,13 @@ body {
 }
 
 .formPartRight__form input {
+    color: var(--white);
     background: transparent;
     padding: 18px 32px;
     border: 1.5px solid rgba(255, 255, 255, 0.05);
     border-radius: 8px;
 }
+
 
 .formPartRight__form input::placeholder {
     color: rgba(244, 246, 252, 0.5);
