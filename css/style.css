@@ -457,6 +457,108 @@ body {
 }
 
 /* ===================== FAQ part end ==================*/
+/* ===================== form part start ==================*/
+
+#formPart {
+    padding: 115px 0 141px;
+}
+
+.formPartLeft {
+    padding: 96px;
+    background: url(../Images/formLeft_bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    height: 691px;
+}
+
+.formPartLeft::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(28, 30, 83, 0.5);
+    z-index: -1;
+}
+
+.formPartLeft__title {
+    font-size: 54px;
+    font-weight: 600;
+    max-width: 464px;
+    color: var(--white);
+
+}
+
+.formPartLeft__summary {
+    margin-top: 24px;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--white);
+
+}
+
+.formPartRight {
+    height: 691px;
+    padding: 96px 96px 48px 96px;
+    background: var(--primary_color);
+}
+
+.formPartRight__title {
+    font-size: 32px;
+    font-weight: 500;
+    color: var(--white);
+}
+
+.formPartRight_summary {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--white);
+}
+
+.formPartRight__form {
+    margin-top: 40px;
+}
+
+.formPartRight__form input {
+    background: transparent;
+    padding: 18px 32px;
+    border: 1.5px solid rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+}
+
+.formPartRight__form input::placeholder {
+    color: rgba(244, 246, 252, 0.5);
+}
+
+.formPartRight__button {
+    padding: 16px 150px;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--primary_text_color);
+    background: var(--yellow);
+    border-radius: 41px;
+    border: none;
+    outline: none;
+    margin-top: 23px;
+}
+
+.form__getBtn {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--white);
+    margin-top: 28px;
+}
+
+.form__getBtn i {
+    margin-left: 10px;
+}
+
+
+/* ===================== form part end ==================*/
 
 
 
