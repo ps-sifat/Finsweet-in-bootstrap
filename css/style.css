@@ -608,6 +608,73 @@ body {
 
 
 /* ===================== blog part end ==================*/
+/* ===================== footer part start ==================*/
+
+footer {
+    padding-top: 96px;
+    background: var(--primary_color);
+}
+
+.footerLeft__summary {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--white);
+    opacity: 0.8;
+    margin-top: 22px;
+    max-width: 399px;
+}
+
+.footerLeft__contact {
+    background: var(--yellow);
+    margin-top: 86px;
+    padding: 17px 37px;
+}
+
+.contact__heding {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--primary_color);
+}
+
+.contact__iteam {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 1px;
+    color: var(--primary_color);
+}
+
+.footerRight__title {
+    font-size: 48px;
+    font-weight: 600;
+    color: var(--white);
+}
+
+.footerRight__summary {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--white);
+    opacity: 0.8;
+    margin-top: 14px;
+}
+
+.footerRight__icon {
+    margin-top: 28px;
+}
+
+.footerRight__icon i {
+    color: var(--white);
+    margin-right: 27px;
+}
+
+
+
+
+
+
+
+
+
+/* ===================== footer part end ==================*/
 
 
 
