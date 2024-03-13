@@ -562,12 +562,48 @@ body {
 
 /* ===================== form part end ==================*/
 /* ===================== blog part start ==================*/
+#blogPart {
+    padding: 141px 0 128px;
+}
 
 .blogPart__title {
     font-size: 48px;
     font-weight: 600;
     color: var(--primary_text_color);
     margin-bottom: 64px;
+}
+
+.blogPartCard__Iteam {
+    margin-top: 40px;
+}
+
+.blogCard__date {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--primary_text_color);
+    opacity: 0.7;
+}
+
+.blogCard__title {
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--primary_text_color);
+    margin-top: 16px;
+}
+
+.blogCard__summary {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--primary_text_color);
+    opacity: 0.7;
+    margin-top: 16px;
+}
+
+.blogCard__read {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--primary_text_color);
+    margin-top: 32px;
 }
 
 
