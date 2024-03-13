@@ -561,6 +561,17 @@ body {
 
 
 /* ===================== form part end ==================*/
+/* ===================== blog part start ==================*/
+
+.blogPart__title {
+    font-size: 48px;
+    font-weight: 600;
+    color: var(--primary_text_color);
+    margin-bottom: 64px;
+}
+
+
+/* ===================== blog part end ==================*/
 
 
 
