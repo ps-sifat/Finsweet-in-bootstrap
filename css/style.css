@@ -692,4 +692,8 @@ footer {
     color: var(--primary_text_color);
 }
 
+.copyPart__list {
+    padding-left: 178px;
+}
+
 /* ===================== copy part end ==================*/
